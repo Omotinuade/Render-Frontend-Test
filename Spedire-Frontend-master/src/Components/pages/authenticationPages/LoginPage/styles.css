@@ -1,0 +1,117 @@
+body {
+    background-color: #FFFFF3;
+}
+
+.input {
+    background-color: #5C7AE8;
+    height: 40px;
+    width: 393px;
+    margin-left: 6.5%;
+    border: none;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 10px;
+
+    padding: 10px 5px 10px 20px;
+    text-indent: 30px;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 2s;
+    transition: all 0.2s;
+}
+
+.backButton {
+    height: 50px;
+    width: 90px;
+    background-color: #5C7AE8;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: smaller;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.spedireContainer {
+    margin-top: -10px;
+
+}
+
+
+.spedire {
+    color: #5C7AE8;
+}
+
+.central {
+    display: flex;
+}
+
+.button {
+    margin-left: 80%;
+    margin-top: 1%;
+}
+
+.topContainer {
+    margin-top: 1%;
+    display: flex;
+    margin-left: 1%;
+}
+
+.formContainer {
+    border: solid 1px #D9D9D9;
+    width: 490px;
+    height: 401px;
+    margin-left: 35%;
+    margin-top: 5%;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+}
+
+*::placeholder {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.mailIconImage {
+    background-color: red;
+}
+
+.forgotPassword {
+    margin-top: 7%;
+}
+
+.error {
+    color: red;
+    margin-left: 7%;
+    margin-top: -2%;
+
+}
+
+.forgotPasswordText {
+    color: #5C7AE8;
+}
+
+.img {
+    width: 70%;
+    height: 70%;
+}
+
+.submit {
+    background-color: #5C7AE8;
+    height: 60px;
+    width: 420px;
+    margin-left: 6.5%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    cursor: pointer;
+}
